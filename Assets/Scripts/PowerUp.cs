@@ -34,5 +34,8 @@ namespace ProjectOne
             // Changing size of the sphere according to the isometric view
             //this.transform.localScale = new Vector3(1f, 1f, 1f);
         }
+
+
+
     }
 }

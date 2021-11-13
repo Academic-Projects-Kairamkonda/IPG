@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 _input;
 
-
     private void Update()
     {
         GetPlayerInput();
@@ -40,9 +39,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     void Move()
     {
         _rb.MovePosition(transform.position + (transform.forward * _input.magnitude) * _speed * Time.deltaTime);
+    }
+
+
+    void Shoot()
+    {
+        
     }
 }
