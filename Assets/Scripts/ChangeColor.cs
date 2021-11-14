@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ChangeColor : MonoBehaviour
 {
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
 
 }

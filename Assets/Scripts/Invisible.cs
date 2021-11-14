@@ -15,7 +15,7 @@ namespace Robot
 
             if (open)
             {
-                StartCoroutine(ActivateInvisible(1));
+                StartCoroutine(ActivateInvisible(10));
             }
         }
 
