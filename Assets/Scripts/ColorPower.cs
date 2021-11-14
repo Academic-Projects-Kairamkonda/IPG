@@ -34,14 +34,16 @@ public class ColorPower : MonoBehaviour
 
         bool open = (material == otherMaterial) ? true : false;
 
+        MeshCollider col = collision.gameObject.GetComponent<MeshCollider>();
+
         if (open)
         {
-            collision.gameObject.GetComponent<Collider>().enabled = false;
+           col.enabled = false;
         }
 
         yield return new WaitForSeconds(time);
 
-        collision.gameObject.GetComponent<Collider>().enabled = true;
+        col.enabled = true;
     }
 
     IEnumerator ChangeColor(Collision collision,float time)

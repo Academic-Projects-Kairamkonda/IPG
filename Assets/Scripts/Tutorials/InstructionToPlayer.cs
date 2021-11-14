@@ -7,6 +7,7 @@ using TMPro;
 public class InstructionToPlayer : MonoBehaviour
 {
     public TextMeshPro instruction;
+    public AudioSource popUp;
 
     private void Awake()
     {
@@ -16,6 +17,7 @@ public class InstructionToPlayer : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         instruction.enabled = true;
+        popUp.Play();
     }
 
 }
