@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 #endregion
 
-namespace ProjectOne
+namespace Robot
 {
     public class Player : MonoBehaviour
     {

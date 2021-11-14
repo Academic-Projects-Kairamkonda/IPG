@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 #endregion
 
-namespace ProjectOne
+namespace Robot
 {
     public class UIManager : MonoBehaviour
     {

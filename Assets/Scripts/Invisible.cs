@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ProjectOne
+namespace Robot
 {
     public class Invisible : MonoBehaviour
     {
