@@ -5,9 +5,10 @@ using TMPro;
 
 public class Passcode : MonoBehaviour
 {
-    public int[] code;
+    public static int[] code= { 6, 3, 8 };
     public TextMeshPro codeOne;
     public AudioSource notCode;
+    public int value;
 
     private void Update()
     {
@@ -16,7 +17,7 @@ public class Passcode : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        codeOne.text = code[0].ToString();
+        codeOne.text = code[value].ToString();
         notCode.Play();
     }
 }

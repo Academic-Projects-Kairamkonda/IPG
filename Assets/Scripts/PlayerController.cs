@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards(transform.rotation,rot,_turnSpeed*Time.deltaTime);
             if(!moveSound.isPlaying)
             {
-                moveSound.Play();
+                //moveSound.Play();
             }
         }
     }
